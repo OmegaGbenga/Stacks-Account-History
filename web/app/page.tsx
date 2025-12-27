@@ -27,3 +27,4 @@ import Link from 'next/link';
 import { authenticate } from '@/lib/stacks-connect';
 
 export default function Home() {
+  return (
