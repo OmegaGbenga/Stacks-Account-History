@@ -20,3 +20,6 @@ export default function HistoryPage() {
              <Card key={tx.id} className="hover:border-indigo-500/50 transition-colors">
                 <div className="flex justify-between items-center">
                    <div>
+                      <p className="font-mono text-indigo-400">{tx.id}</p>
+                      <p className="text-sm text-gray-400">{tx.type}</p>
+                   </div>
