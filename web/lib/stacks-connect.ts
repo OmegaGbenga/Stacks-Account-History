@@ -16,3 +16,11 @@ export interface AuthenticateOptions {
  * Trigger the Stacks wallet authentication flow
  */
 export function authenticate(options?: AuthenticateOptions) {
+  showConnect({
+    appDetails: {
+      name: 'Stacks History App',
+      icon: typeof window !== 'undefined' ? window.location.origin + '/logo.png' : '',
+    },
+    redirectTo: '/',
+    onFinish: () => {
+      if (options?.onFinish) options.onFinish();
