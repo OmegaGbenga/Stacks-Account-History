@@ -15,3 +15,5 @@ export const Input: React.FC<InputProps> = ({ label, error, className = '', ...p
       />
       {error && <p className="text-xs text-red-400">{error}</p>}
     </div>
+  );
+};
