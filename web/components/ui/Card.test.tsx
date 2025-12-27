@@ -3,3 +3,6 @@ import { Card } from './Card';
 
 describe('Card Component', () => {
   it('renders children', () => {
+    render(<Card><div>Content</div></Card>);
+    expect(screen.getByText('Content')).toBeInTheDocument();
+  });
