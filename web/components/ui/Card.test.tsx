@@ -8,3 +8,6 @@ describe('Card Component', () => {
   });
 
   it('renders title when provided', () => {
+    render(<Card title="Res Title">Content</Card>);
+    expect(screen.getByText('Res Title')).toBeInTheDocument();
+  });
