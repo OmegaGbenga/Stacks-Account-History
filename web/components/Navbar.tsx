@@ -27,3 +27,4 @@ export const Navbar = () => {
             <Link href="/history" className="text-sm text-gray-400 hover:text-white transition-colors">History</Link>
             <Link href="/deployments" className="text-sm text-gray-400 hover:text-white transition-colors">Deployments</Link>
           </div>
+        </div>
