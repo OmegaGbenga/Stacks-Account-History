@@ -30,3 +30,5 @@ export function authenticate(options?: AuthenticateOptions) {
     userSession,
   });
 }
+
+export function getUserData() {
