@@ -63,3 +63,4 @@ export default function Home() {
                     <p className="text-gray-400">Connect securely using Stacks Connect or WalletConnect standards.</p>
                  </Card>
               </div>
+            </div>
