@@ -30,3 +30,7 @@ export const initWalletConnect = async (config: WalletConnectConfig) => {
     
     console.log('WalletConnect initialized');
     return web3wallet;
+  } catch (err) {
+    console.error('Failed to init WalletConnect', err);
+    throw err;
+  }
