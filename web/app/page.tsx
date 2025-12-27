@@ -23,3 +23,5 @@ export default function Home() {
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
+import Link from 'next/link';
+import { authenticate } from '@/lib/stacks-connect';
