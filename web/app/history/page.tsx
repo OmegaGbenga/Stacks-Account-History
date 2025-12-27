@@ -30,3 +30,4 @@ export default function HistoryPage() {
                       </span>
                    </div>
                 </div>
+             </Card>
