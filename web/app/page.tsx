@@ -38,3 +38,4 @@ export default function Home() {
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
                 Stacks Account History
+              </h1>
