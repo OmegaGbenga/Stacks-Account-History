@@ -11,3 +11,5 @@ describe('Card Component', () => {
     render(<Card title="Res Title">Content</Card>);
     expect(screen.getByText('Res Title')).toBeInTheDocument();
   });
+
+  it('applies custom className', () => {
