@@ -24,3 +24,9 @@ export function authenticate(options?: AuthenticateOptions) {
     redirectTo: '/',
     onFinish: () => {
       if (options?.onFinish) options.onFinish();
+      else window.location.reload();
+    },
+    onCancel: options?.onCancel,
+    userSession,
+  });
+}
