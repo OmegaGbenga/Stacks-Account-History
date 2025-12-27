@@ -5,3 +5,5 @@ export interface CardProps {
   className?: string;
   title?: string;
 }
+
+export const Card: React.FC<CardProps> = ({ children, className = '', title }) => {
