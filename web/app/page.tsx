@@ -48,3 +48,4 @@ export default function Home() {
                   View History <span aria-hidden="true">→</span>
                 </Link>
               </div>
+            </div>
