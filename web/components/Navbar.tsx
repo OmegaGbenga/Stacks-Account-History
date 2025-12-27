@@ -23,3 +23,7 @@ export const Navbar = () => {
           <Link href="/" className="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
             StacksHistory
           </Link>
+          <div className="hidden md:flex items-center gap-6">
+            <Link href="/history" className="text-sm text-gray-400 hover:text-white transition-colors">History</Link>
+            <Link href="/deployments" className="text-sm text-gray-400 hover:text-white transition-colors">Deployments</Link>
+          </div>
