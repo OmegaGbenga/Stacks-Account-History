@@ -34,3 +34,4 @@ export const initWalletConnect = async (config: WalletConnectConfig) => {
     console.error('Failed to init WalletConnect', err);
     throw err;
   }
+};
