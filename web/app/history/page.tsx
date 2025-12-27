@@ -28,3 +28,4 @@ export default function HistoryPage() {
                       <span className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ${tx.status === 'Success' ? 'bg-green-500/10 text-green-400 ring-green-500/20' : 'bg-yellow-500/10 text-yellow-400 ring-yellow-500/20'}`}>
                         {tx.status}
                       </span>
+                   </div>
