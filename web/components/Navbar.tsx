@@ -9,3 +9,7 @@ export const Navbar = () => {
 
   React.useEffect(() => {
     const data = getUserData();
+    setUser(data);
+  }, []);
+
+  const handleLogin = () => {
