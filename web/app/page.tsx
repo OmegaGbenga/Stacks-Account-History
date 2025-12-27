@@ -28,3 +28,8 @@ import { authenticate } from '@/lib/stacks-connect';
 
 export default function Home() {
   return (
+    <main className="min-h-screen bg-black text-white selection:bg-indigo-500/30">
+      <Navbar />
+      
+      <div className="relative isolate pt-14">
+        {/* Hero Section */}
