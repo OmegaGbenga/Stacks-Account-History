@@ -16,3 +16,9 @@ export interface WalletConnectConfig {
     url: string;
     icons: string[];
 }
+
+/**
+ * Initialize the Web3Wallet instance
+ * @param config Configuration for the wallet metadata
+ */
+export const initWalletConnect = async (config: WalletConnectConfig) => {
