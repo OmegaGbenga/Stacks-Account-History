@@ -42,3 +42,8 @@ export default function Home() {
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Explore transaction history, contract deployments, and account activities on the Stacks blockchain with a premium, high-performance interface.
               </p>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <Button size="lg" onClick={() => authenticate()}>Connect Wallet</Button>
+                <Link href="/history" className="text-sm font-semibold leading-6 text-white hover:text-indigo-400 transition-colors">
+                  View History <span aria-hidden="true">→</span>
+                </Link>
