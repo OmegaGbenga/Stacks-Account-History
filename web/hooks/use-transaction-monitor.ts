@@ -14,3 +14,6 @@ export function useTransactionMonitor(txId: string) {
     }, 5000);
 
     return () => clearInterval(interval);
+  }, [txId]);
+
+  return { status };
