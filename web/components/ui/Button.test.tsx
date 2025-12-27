@@ -18,3 +18,4 @@ describe('Button Component', () => {
     const button = screen.getByRole('button');
     expect(button.className).toContain('bg-gray-800');
   });
+});
