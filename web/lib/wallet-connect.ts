@@ -22,3 +22,11 @@ export interface WalletConnectConfig {
  * @param config Configuration for the wallet metadata
  */
 export const initWalletConnect = async (config: WalletConnectConfig) => {
+  try {
+    const web3wallet = await Web3Wallet.init({
+      core,
+      metadata: config
+    });
+    
+    console.log('WalletConnect initialized');
+    return web3wallet;
