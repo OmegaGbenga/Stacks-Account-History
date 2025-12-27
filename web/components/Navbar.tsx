@@ -28,3 +28,7 @@ export const Navbar = () => {
             <Link href="/deployments" className="text-sm text-gray-400 hover:text-white transition-colors">Deployments</Link>
           </div>
         </div>
+        
+        <div className="flex items-center gap-4">
+          {user ? (
+            <div className="flex items-center gap-3">
