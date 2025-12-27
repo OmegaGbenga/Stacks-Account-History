@@ -21,3 +21,7 @@ export const Button: React.FC<ButtonProps> = ({
     secondary: 'bg-gray-800 text-gray-100 hover:bg-gray-700 border border-gray-700',
     glass: 'bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/20'
   };
+
+  const sizes = {
+    sm: 'px-3 py-1.5 text-sm',
+    md: 'px-4 py-2 text-base',
