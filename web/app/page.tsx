@@ -21,3 +21,5 @@ export default function Home() {
   );
 }import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { Button } from '@/components/ui/Button';
+import { Card } from '@/components/ui/Card';
