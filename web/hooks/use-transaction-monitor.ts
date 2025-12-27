@@ -11,3 +11,6 @@ export function useTransactionMonitor(txId: string) {
     const interval = setInterval(() => {
        // logic to check status
        console.log("Checking tx", txId);
+    }, 5000);
+
+    return () => clearInterval(interval);
