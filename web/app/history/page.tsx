@@ -36,3 +36,5 @@ export default function HistoryPage() {
       </div>
       <Footer />
     </div>
+  );
+}
