@@ -11,3 +11,8 @@ export interface AuthenticateOptions {
   onFinish?: () => void;
   onCancel?: () => void;
 }
+
+/**
+ * Trigger the Stacks wallet authentication flow
+ */
+export function authenticate(options?: AuthenticateOptions) {
