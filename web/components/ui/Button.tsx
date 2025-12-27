@@ -5,3 +5,5 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
   size?: 'sm' | 'md' | 'lg';
   isLoading?: boolean;
 }
+
+export const Button: React.FC<ButtonProps> = ({ 
