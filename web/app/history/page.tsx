@@ -29,3 +29,4 @@ export default function HistoryPage() {
                         {tx.status}
                       </span>
                    </div>
+                </div>
