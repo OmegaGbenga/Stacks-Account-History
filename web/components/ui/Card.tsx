@@ -17,3 +17,4 @@ export const Card: React.FC<CardProps> = ({ children, className = '', title }) =
       <div className="p-6">
         {children}
       </div>
+    </div>
