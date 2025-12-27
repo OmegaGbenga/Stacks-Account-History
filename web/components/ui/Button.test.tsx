@@ -7,3 +7,5 @@ describe('Button Component', () => {
     const button = screen.getByText('Click me');
     expect(button).toBeInTheDocument();
   });
+
+  it('handles loading state', () => {
