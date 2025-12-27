@@ -16,3 +16,4 @@ describe('Card Component', () => {
     const { container } = render(<Card className="custom-cls">C</Card>);
     expect(container.firstChild).toHaveClass('custom-cls');
   });
+});
