@@ -11,3 +11,10 @@ export const chainhooks = new ChainhooksClient({
 });
 
 export async function registerHook(predicate: any) {
+    try {
+        const result = await chainhooks.register(predicate);
+        return result;
+    } catch (e) {
+        console.error("Chainhook error", e);
+        return null;
+    }
