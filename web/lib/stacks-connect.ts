@@ -32,3 +32,6 @@ export function authenticate(options?: AuthenticateOptions) {
 }
 
 export function getUserData() {
+    if (userSession.isUserSignedIn()) {
+        return userSession.loadUserData();
+    }
