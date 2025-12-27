@@ -16,3 +16,5 @@ describe('Button Component', () => {
   it('applies variant classes', () => {
     render(<Button variant="secondary">Secondary</Button>);
     const button = screen.getByRole('button');
+    expect(button.className).toContain('bg-gray-800');
+  });
