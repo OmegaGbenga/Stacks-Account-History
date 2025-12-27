@@ -31,3 +31,5 @@ export default function HistoryPage() {
                    </div>
                 </div>
              </Card>
+          ))}
+        </div>
