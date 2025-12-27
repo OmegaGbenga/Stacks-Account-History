@@ -19,4 +19,5 @@ export default function Home() {
       {userData && <SearchHistoryList />}
     </main>
   );
-}
+}import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
