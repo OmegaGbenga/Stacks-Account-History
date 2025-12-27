@@ -17,3 +17,4 @@ export function useTransactionMonitor(txId: string) {
   }, [txId]);
 
   return { status };
+}
