@@ -39,3 +39,5 @@ export const Navbar = () => {
             <Button onClick={handleLogin} variant="primary" size="sm">
               Connect Wallet
             </Button>
+          )}
+        </div>
