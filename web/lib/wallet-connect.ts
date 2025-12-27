@@ -11,3 +11,8 @@ const core = new Core({
 });
 
 export interface WalletConnectConfig {
+    name: string;
+    description: string;
+    url: string;
+    icons: string[];
+}
