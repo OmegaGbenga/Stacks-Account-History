@@ -56,3 +56,6 @@ export default function Home() {
                  <Card title="Real-time Tracking">
                     <p className="text-gray-400">Monitor transactions as they happen with WebSocket integration via Chainhooks.</p>
                  </Card>
+                 <Card title="Deep Analysis">
+                    <p className="text-gray-400">Analyze contract interactions and token transfers with intuitive visualizations.</p>
+                 </Card>
