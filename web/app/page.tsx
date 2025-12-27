@@ -33,3 +33,8 @@ export default function Home() {
       
       <div className="relative isolate pt-14">
         {/* Hero Section */}
+        <div className="py-24 sm:py-32 lg:pb-40">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
+                Stacks Account History
