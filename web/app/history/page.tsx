@@ -8,3 +8,5 @@ export default function HistoryPage() {
     { id: '0x456...def', type: 'Token Transfer', age: '15 mins ago', status: 'Pending' },
     { id: '0x789...ghi', type: 'Contract Deploy', age: '1 hour ago', status: 'Success' },
   ];
+
+  return (
