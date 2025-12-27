@@ -12,3 +12,5 @@ describe('Button Component', () => {
     render(<Button isLoading>Loading</Button>);
     expect(screen.getByRole('button')).toBeDisabled();
   });
+
+  it('applies variant classes', () => {
