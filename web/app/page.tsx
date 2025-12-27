@@ -59,3 +59,6 @@ export default function Home() {
                  <Card title="Deep Analysis">
                     <p className="text-gray-400">Analyze contract interactions and token transfers with intuitive visualizations.</p>
                  </Card>
+                 <Card title="Secure Connection">
+                    <p className="text-gray-400">Connect securely using Stacks Connect or WalletConnect standards.</p>
+                 </Card>
