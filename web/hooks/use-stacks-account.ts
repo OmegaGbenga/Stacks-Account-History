@@ -6,3 +6,9 @@ export function useStacksAccount() {
   const [isSignedIn, setIsSignedIn] = useState(false);
 
   useEffect(() => {
+    if (userSession.isUserSignedIn()) {
+      const userData = getUserData();
+      setAddress(userData?.profile?.stxAddress?.mainnet || null);
+      setIsSignedIn(true);
+    } else {
+      setIsSignedIn(false);
