@@ -13,3 +13,5 @@ export const Navbar = () => {
   }, []);
 
   const handleLogin = () => {
+    authenticate();
+  };
