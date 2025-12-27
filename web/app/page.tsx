@@ -39,3 +39,6 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
                 Stacks Account History
               </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-300">
+                Explore transaction history, contract deployments, and account activities on the Stacks blockchain with a premium, high-performance interface.
+              </p>
