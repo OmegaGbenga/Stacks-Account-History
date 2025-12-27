@@ -47,3 +47,4 @@ export default function Home() {
                 <Link href="/history" className="text-sm font-semibold leading-6 text-white hover:text-indigo-400 transition-colors">
                   View History <span aria-hidden="true">→</span>
                 </Link>
+              </div>
