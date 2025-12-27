@@ -9,3 +9,6 @@ describe('Button Component', () => {
   });
 
   it('handles loading state', () => {
+    render(<Button isLoading>Loading</Button>);
+    expect(screen.getByRole('button')).toBeDisabled();
+  });
