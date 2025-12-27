@@ -17,3 +17,4 @@ export function useStacksAccount() {
   }, []);
 
   return { address, isSignedIn };
+}
