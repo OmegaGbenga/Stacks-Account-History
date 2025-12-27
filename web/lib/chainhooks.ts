@@ -18,3 +18,4 @@ export async function registerHook(predicate: any) {
         console.error("Chainhook error", e);
         return null;
     }
+}
