@@ -15,3 +15,8 @@ export default function HistoryPage() {
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-8">Transaction History</h1>
         
+        <div className="space-y-4">
+          {transactions.map((tx) => (
+             <Card key={tx.id} className="hover:border-indigo-500/50 transition-colors">
+                <div className="flex justify-between items-center">
+                   <div>
