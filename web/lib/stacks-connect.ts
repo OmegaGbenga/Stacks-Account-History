@@ -35,3 +35,5 @@ export function getUserData() {
     if (userSession.isUserSignedIn()) {
         return userSession.loadUserData();
     }
+    return null;
+}
