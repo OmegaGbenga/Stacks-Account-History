@@ -54,3 +54,5 @@ export default function Home() {
             <div className="mt-16 flow-root sm:mt-24">
               <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                  <Card title="Real-time Tracking">
+                    <p className="text-gray-400">Monitor transactions as they happen with WebSocket integration via Chainhooks.</p>
+                 </Card>
