@@ -12,3 +12,8 @@ export function useStacksAccount() {
       setIsSignedIn(true);
     } else {
       setIsSignedIn(false);
+      setAddress(null);
+    }
+  }, []);
+
+  return { address, isSignedIn };
