@@ -8,3 +8,6 @@ const PROJECT_ID = process.env.NEXT_PUBLIC_WC_PROJECT_ID || 'demo-id';
  */
 const core = new Core({
   projectId: PROJECT_ID
+});
+
+export interface WalletConnectConfig {
