@@ -35,3 +35,7 @@ export const Navbar = () => {
                <span className="text-sm text-gray-300">{user.profile?.stxAddress?.mainnet}</span>
                <Button variant="glass" size="sm">Disconnect</Button>
             </div>
+          ) : (
+            <Button onClick={handleLogin} variant="primary" size="sm">
+              Connect Wallet
+            </Button>
