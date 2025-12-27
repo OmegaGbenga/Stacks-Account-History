@@ -42,3 +42,5 @@ export const Button: React.FC<ButtonProps> = ({
       ) : null}
       {children}
     </button>
+  );
+};
